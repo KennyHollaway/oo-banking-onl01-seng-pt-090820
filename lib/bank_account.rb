@@ -14,4 +14,7 @@ class BankAccount
   def display_balance
     "Your balance is $#{self.balance}."
   end
+  
+  def vaild?
+    
 end
