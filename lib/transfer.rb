@@ -8,5 +8,5 @@ class Transfer
   end
   
   def vaild?
-    
+    if sender.vaild
 end
