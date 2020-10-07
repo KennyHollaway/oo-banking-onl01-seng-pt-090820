@@ -7,8 +7,8 @@ class Transfer
     @status = "pending"
   end
   
-  def vaild?
-    if sender.vaild? && receiver.vaild?
+  def valid?
+    if sender.valid? && receiver.valid?
       true 
     else
       false
