@@ -8,5 +8,10 @@ class Transfer
   end
   
   def vaild?
-    if sender.vaild
+    if sender.vaild? && receiver.vaild?
+      true 
+    else
+      false
+    end
+  end
 end
