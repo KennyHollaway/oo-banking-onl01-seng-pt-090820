@@ -16,5 +16,6 @@ class BankAccount
   end
   
   def vaild?
-    
+    if 
+      @status == "open"
 end
